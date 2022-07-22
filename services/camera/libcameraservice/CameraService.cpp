@@ -2495,6 +2495,8 @@ Status CameraService::connectHelper(const sp<CALLBACK>& cameraCb, const std::str
 
     sCurrPackageName = clientPackageName.c_str();
 
+    sCurrPackageName = clientPackageName;
+
     nsecs_t openTimeNs = systemTime();
 
     sp<CLIENT> client = nullptr;
