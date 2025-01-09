@@ -130,6 +130,7 @@ cc_library {
         "needs_camera_boottime_defaults",
         "camera_needs_client_info_lib_defaults",
         "camera_needs_client_info_lib_oplus_defaults",
+        "uses_miui_camera_defaults",
     ],
     // Camera service source
 
